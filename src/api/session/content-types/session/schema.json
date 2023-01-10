@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessions",
+  "info": {
+    "singularName": "session",
+    "pluralName": "sessions",
+    "displayName": "Session",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "datestart": {
+      "type": "datetime",
+      "required": true
+    },
+    "pin": {
+      "required": true,
+      "type": "biginteger"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "coming",
+        "finish ",
+        "inprogress"
+      ],
+      "default": "coming",
+      "required": true
+    },
+    "createdby": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "sessions"
+    }
+  }
+}

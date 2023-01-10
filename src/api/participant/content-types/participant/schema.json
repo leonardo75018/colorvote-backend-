@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "participants",
+  "info": {
+    "singularName": "participant",
+    "pluralName": "participants",
+    "displayName": "Participant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "sessionpin": {
+      "type": "biginteger",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "sessionId": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::session.session"
+    }
+  }
+}

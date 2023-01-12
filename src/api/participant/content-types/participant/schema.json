@@ -14,25 +14,30 @@
   "attributes": {
     "firstname": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": false
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "role": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": false
     },
     "sessionpin": {
       "type": "biginteger",
-      "required": true
+      "required": true,
+      "unique": false,
+      "max": "5"
     },
     "lastname": {
       "type": "string",
       "required": true
     },
-    "sessionId": {
+    "session": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::session.session"

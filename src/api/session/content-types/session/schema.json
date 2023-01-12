@@ -14,21 +14,24 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "datestart": {
       "type": "datetime",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "pin": {
       "required": true,
-      "type": "biginteger"
+      "type": "biginteger",
+      "unique": true
     },
     "status": {
       "type": "enumeration",
       "enum": [
         "coming",
-        "finish ",
+        "end",
         "inprogress"
       ],
       "default": "coming",

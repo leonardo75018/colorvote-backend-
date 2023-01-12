@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-01-10T22:04:46.217Z"
+    "x-generation-date": "2023-01-12T13:38:24.375Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -157,7 +157,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -828,7 +828,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -1532,7 +1532,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -2203,7 +2203,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -2878,7 +2878,7 @@
               "lastname": {
                 "type": "string"
               },
-              "sessionId": {
+              "session": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -2920,7 +2920,7 @@
               "lastname": {
                 "type": "string"
               },
-              "sessionId": {
+              "session": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -2948,7 +2948,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -3606,7 +3606,7 @@
               "lastname": {
                 "type": "string"
               },
-              "sessionId": {
+              "session": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -3634,7 +3634,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -4325,7 +4325,7 @@
               "lastname": {
                 "type": "string"
               },
-              "sessionId": {
+              "session": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -4353,7 +4353,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -5011,7 +5011,7 @@
               "lastname": {
                 "type": "string"
               },
-              "sessionId": {
+              "session": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -5039,7 +5039,7 @@
                             "type": "string",
                             "enum": [
                               "coming",
-                              "finish ",
+                              "end",
                               "inprogress"
                             ]
                           },
@@ -5711,7 +5711,7 @@
                 "type": "string",
                 "enum": [
                   "coming",
-                  "finish ",
+                  "end",
                   "inprogress"
                 ]
               },
@@ -5755,7 +5755,7 @@
                 "type": "string",
                 "enum": [
                   "coming",
-                  "finish ",
+                  "end",
                   "inprogress"
                 ]
               },
@@ -6246,7 +6246,7 @@
                                           "type": "string",
                                           "enum": [
                                             "coming",
-                                            "finish ",
+                                            "end",
                                             "inprogress"
                                           ]
                                         },
@@ -6443,7 +6443,7 @@
                 "type": "string",
                 "enum": [
                   "coming",
-                  "finish ",
+                  "end",
                   "inprogress"
                 ]
               },
@@ -6934,7 +6934,7 @@
                                           "type": "string",
                                           "enum": [
                                             "coming",
-                                            "finish ",
+                                            "end",
                                             "inprogress"
                                           ]
                                         },
@@ -7164,7 +7164,7 @@
                 "type": "string",
                 "enum": [
                   "coming",
-                  "finish ",
+                  "end",
                   "inprogress"
                 ]
               },
@@ -7655,7 +7655,7 @@
                                           "type": "string",
                                           "enum": [
                                             "coming",
-                                            "finish ",
+                                            "end",
                                             "inprogress"
                                           ]
                                         },
@@ -7852,7 +7852,7 @@
                 "type": "string",
                 "enum": [
                   "coming",
-                  "finish ",
+                  "end",
                   "inprogress"
                 ]
               },
@@ -8343,7 +8343,7 @@
                                           "type": "string",
                                           "enum": [
                                             "coming",
-                                            "finish ",
+                                            "end",
                                             "inprogress"
                                           ]
                                         },
@@ -8605,7 +8605,7 @@
                           "lastname": {
                             "type": "string"
                           },
-                          "sessionId": {
+                          "session": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -8633,7 +8633,7 @@
                                         "type": "string",
                                         "enum": [
                                           "coming",
-                                          "finish ",
+                                          "end",
                                           "inprogress"
                                         ]
                                       },
@@ -9442,7 +9442,7 @@
                           "lastname": {
                             "type": "string"
                           },
-                          "sessionId": {
+                          "session": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -9470,7 +9470,7 @@
                                         "type": "string",
                                         "enum": [
                                           "coming",
-                                          "finish ",
+                                          "end",
                                           "inprogress"
                                         ]
                                       },
@@ -10312,7 +10312,7 @@
                           "lastname": {
                             "type": "string"
                           },
-                          "sessionId": {
+                          "session": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -10340,7 +10340,7 @@
                                         "type": "string",
                                         "enum": [
                                           "coming",
-                                          "finish ",
+                                          "end",
                                           "inprogress"
                                         ]
                                       },
@@ -11149,7 +11149,7 @@
                           "lastname": {
                             "type": "string"
                           },
-                          "sessionId": {
+                          "session": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -11177,7 +11177,7 @@
                                         "type": "string",
                                         "enum": [
                                           "coming",
-                                          "finish ",
+                                          "end",
                                           "inprogress"
                                         ]
                                       },
@@ -17554,7 +17554,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -18221,7 +18221,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -18921,7 +18921,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -19588,7 +19588,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -20027,7 +20027,7 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "coming",
-                                                                        "finish ",
+                                                                        "end",
                                                                         "inprogress"
                                                                       ]
                                                                     },
@@ -20723,7 +20723,7 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "coming",
-                                                                        "finish ",
+                                                                        "end",
                                                                         "inprogress"
                                                                       ]
                                                                     },
@@ -21452,7 +21452,7 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "coming",
-                                                                        "finish ",
+                                                                        "end",
                                                                         "inprogress"
                                                                       ]
                                                                     },
@@ -22148,7 +22148,7 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "coming",
-                                                                        "finish ",
+                                                                        "end",
                                                                         "inprogress"
                                                                       ]
                                                                     },
@@ -23233,7 +23233,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -23939,7 +23939,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -24678,7 +24678,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },
@@ -25384,7 +25384,7 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "coming",
-                                                          "finish ",
+                                                          "end",
                                                           "inprogress"
                                                         ]
                                                       },

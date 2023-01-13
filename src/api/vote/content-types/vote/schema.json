@@ -23,8 +23,16 @@
       "target": "api::item.item"
     },
     "choice": {
-      "type": "string",
-      "required": true
+      "type": "enumeration",
+      "enum": [
+        "green-dark",
+        "gren-ligth",
+        "orange ",
+        "red-ligth",
+        "red-dark ",
+        "white ",
+        "black"
+      ]
     }
   }
 }

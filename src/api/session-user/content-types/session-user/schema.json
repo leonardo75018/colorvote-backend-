@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "session_users",
+  "info": {
+    "singularName": "session-user",
+    "pluralName": "session-users",
+    "displayName": "sessionUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "sessionId": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::session.session"
+    }
+  }
+}

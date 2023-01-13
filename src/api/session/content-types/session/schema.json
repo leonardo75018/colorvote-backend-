@@ -20,7 +20,7 @@
     "datestart": {
       "type": "datetime",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "pin": {
       "required": true,
